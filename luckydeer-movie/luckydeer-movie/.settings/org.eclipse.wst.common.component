@@ -10,6 +10,18 @@
         <dependent-module archiveName="luckydeer-movie-baseaction-20180605-baseaction.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/luckydeer-movie-baseaction/luckydeer-movie-baseaction">
             <dependency-type>uses</dependency-type>
         </dependent-module>
+        <dependent-module archiveName="luckydeer-movie-service-20180605-service.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/luckydeer-movie-service/luckydeer-movie-service">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="luckydeer-movie-facade-20180605-facade.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/luckydeer-movie-facade/luckydeer-movie-facade">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="luckydeer-movie-model-20180605-model.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/luckydeer-movie-model/luckydeer-movie-model">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="luckydeer-common-20180605-main-common.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/luckydeer-common/luckydeer-common">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
         <dependent-module archiveName="luckydeer-movie-manager-20180605-manager.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/luckydeer-movie-manager/luckydeer-movie-manager">
             <dependency-type>uses</dependency-type>
         </dependent-module>
@@ -17,9 +29,6 @@
             <dependency-type>uses</dependency-type>
         </dependent-module>
         <dependent-module archiveName="luckydeer-movie-common-20180605-common.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/luckydeer-movie-common/luckydeer-movie-common">
-            <dependency-type>uses</dependency-type>
-        </dependent-module>
-        <dependent-module archiveName="luckydeer-movie-model-20180605-model.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/luckydeer-movie-model/luckydeer-movie-model">
             <dependency-type>uses</dependency-type>
         </dependent-module>
         <property name="context-root" value="luckydeer-movie"/>
