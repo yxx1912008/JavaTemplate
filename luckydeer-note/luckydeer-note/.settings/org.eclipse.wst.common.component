@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="luckydeer-note">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <dependent-module archiveName="luckydeer-note-web-20180605-web.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/luckydeer-note-web/luckydeer-note-web">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="luckydeer-note-baseaction-20180605-baseaction.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/luckydeer-note-baseaction/luckydeer-note-baseaction">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="luckydeer-note-manager-20180605-manager.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/luckydeer-note-manager/luckydeer-note-manager">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="luckydeer-note-dao-20180605-dao.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/luckydeer-note-dao/luckydeer-note-dao">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="luckydeer-note-common-201806-common.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/luckydeer-note-common/luckydeer-note-common">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="luckydeer-note-model-20180605-model.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/luckydeer-note-model/luckydeer-note-model">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="luckydeer-note-intergration-20180605-intergration.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/luckydeer-note-intergration/luckydeer-note-intergration">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="luckydeer-movie-facade-20180605-facade.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/luckydeer-movie-facade/luckydeer-movie-facade">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="luckydeer-movie-common-20180605-common.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/luckydeer-movie-common/luckydeer-movie-common">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="luckydeer-movie-model-20180605-model.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/luckydeer-movie-model/luckydeer-movie-model">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="luckydeer-note"/>
+        <property name="java-output-path" value="/luckydeer-note/target/classes"/>
+    </wb-module>
+</project-modules>
